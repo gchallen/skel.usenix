@@ -1,5 +1,6 @@
 START = xxxnote
 END = missing
+CLASS = $(PYTEX)/cls/usenix.sty
 
 all: paper
 
@@ -7,4 +8,4 @@ all: paper
 
 clean: rulesclean
 
-include Makerules
+include $(PYTEX)/make/Makerules
